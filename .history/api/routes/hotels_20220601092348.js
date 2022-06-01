@@ -2,7 +2,6 @@ import express from "express";
 import {
   createHotels,
   deleteHotel,
-  getHotel,
   getHotels,
   updatedHotel,
 } from "../handlers/hotels.js";

@@ -6,6 +6,7 @@ import {
   getHotels,
   updatedHotel,
 } from "../handlers/hotels.js";
+import { createError } from "../utils/Error.js";
 
 const router = express.Router();
 //CREATE

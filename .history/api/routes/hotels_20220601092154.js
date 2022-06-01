@@ -2,10 +2,11 @@ import express from "express";
 import {
   createHotels,
   deleteHotel,
-  getHotel,
   getHotels,
   updatedHotel,
 } from "../handlers/hotels.js";
+import Hotel from "../models/Hotel.js";
+import { createError } from "../utils/Error.js";
 
 const router = express.Router();
 //CREATE
